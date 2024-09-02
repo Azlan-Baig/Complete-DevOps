@@ -1,0 +1,18 @@
+Resources:
+  Myinstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-066784287e358dad1
+      Tags:
+        - Key: "Name"
+          Value: "change-set Instance-2"
+# Resources:
+#   Myinstance:
+#     Type: AWS::EC2::Instance
+#     Properties:
+#       InstanceType: t2.micro
+#       ImageId: ami-0e86e20dae9224db8
+#       Tags:
+#         - Key: Name
+#           Value: change-set Instance
